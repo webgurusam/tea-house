@@ -36,8 +36,8 @@
   <header class="container mx-auto">
     <div class="hero border border-r-amber-400">
       <div class="hero-content items-start flex-col lg:flex-row-reverse">
-        <div class="relative w-2/5 mt-14">
-          <img src="./images/banner.png" class="max-w-sm h-96 border border-blue-400" />
+        <div class="relative w-full lg:w-2/5 mt-14">
+          <img src="./images/banner.png" class="md:max-w-sm h-96 border border-blue-400" />
           <div class="hero relative -top-24 w-64 h-24 bg-white rounded-lg shadow-lg border border-green-600">
             <div class="hero-content">
               <div>
@@ -58,7 +58,7 @@
             </div>
           </div>
         </div>
-        <div class="border w-3/5 border-red-400 space-y-7">
+        <div class="border w-full lg:w-3/5 border-red-400 space-y-7">
           <h1 class="text-7xl text-heading-color font-extrabold">It's good tea time at The Tea House</h1>
           <p class="text-lg text-description-color font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
           <button class="btn text-white text-xl font-bold bg-gradient-to-r from-[#FF8938] to-[#F00] px-5 py-4 h-auto">
@@ -72,7 +72,48 @@
     </div>
   </header>
   <!-- header section ends here -->
-  <main></main>
+  <main class="container mx-auto">
+    <!-- featured products -->
+    <section class="text-center my-32">
+      <h1 class="font-extrabold text-4xl text-heading-color mb-5">Our Featured Products</h1>
+      <p class="text-description-color font-medium max-w-4xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      <!-- featured tea -->
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-12">
+        <!-- card 1 -->
+        <div class="card p-7 rounded-lg bg-gradient-to-t from-[#f4f4f400] to-[#F4F4F4]">
+          <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+          <div class="p-0">
+            <h2 class="mt-7 mb-2 text-2xl font-extrabold text-heading-color">Milk Tea</h2>
+            <p class="font-semibold text-description-color">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card p-7 rounded-lg bg-gradient-to-t from-[#f4f4f400] to-[#F4F4F4]">
+          <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+          <div class="p-0">
+            <h2 class="mt-7 mb-2 text-2xl font-extrabold text-heading-color">Milk Tea</h2>
+            <p class="font-semibold text-description-color">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card p-7 rounded-lg bg-gradient-to-t from-[#f4f4f400] to-[#F4F4F4]">
+          <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+          <div class="p-0">
+            <h2 class="mt-7 mb-2 text-2xl font-extrabold text-heading-color">Milk Tea</h2>
+            <p class="font-semibold text-description-color">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card p-7 rounded-lg bg-gradient-to-t from-[#f4f4f400] to-[#F4F4F4]">
+          <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+          <div class="p-0">
+            <h2 class="mt-7 mb-2 text-2xl font-extrabold text-heading-color">Milk Tea</h2>
+            <p class="font-semibold text-description-color">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer></footer>
 </body>
 </html>
